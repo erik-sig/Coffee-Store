@@ -4,7 +4,7 @@ import {
   ResumeInfos,
   SuccessContainer,
 } from "./styles";
-import Illustration from "../../assets/Illustration.svg";
+import Illustration from "/static/images/Illustration.svg";
 import { CurrencyDollar, MapPin, Timer } from "@phosphor-icons/react";
 import { defaultTheme } from "../../styles/themes/default";
 import { useContext } from "react";

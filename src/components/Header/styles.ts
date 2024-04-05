@@ -23,6 +23,15 @@ export const HeaderContainer = styled.header`
       align-items: center;
       position: relative;
       cursor: pointer;
+      transition: all 0.2s;
+
+      &[aria-disabled="true"] {
+        pointer-events: none;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
 
       > span {
         ${mixins.fonts.textS};

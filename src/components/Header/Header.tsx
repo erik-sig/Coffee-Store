@@ -1,5 +1,5 @@
 import { MapPin, ShoppingCart } from "@phosphor-icons/react";
-import coffeeLogo from "../../assets/coffeeLogo.svg";
+import coffeeLogo from "/static/images/coffeeLogo.svg";
 import { HeaderContainer, Location } from "./styles";
 import { NavLink } from "react-router-dom";
 import { defaultTheme } from "../../styles/themes/default";

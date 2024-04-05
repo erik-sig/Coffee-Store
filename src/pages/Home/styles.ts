@@ -45,6 +45,7 @@ export const Info = styled.div`
 export const HeroBackground = styled.article`
   position: absolute;
   width: 100%;
+  max-height: 37.5rem;
 
   img {
     width: 100%;
@@ -71,5 +72,6 @@ export const CoffeeContainer = styled.section`
     grid-template-columns: repeat(auto-fill, 16rem);
     grid-row-gap: 2.5rem;
     grid-column-gap: 2rem;
+    padding-bottom: 2rem;
   }
 `;
